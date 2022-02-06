@@ -7,7 +7,6 @@ pipeline {
           steps {
             sh '''git --version
 java -version
-mvn --version
 '''
           }
         }
